@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 mpl.rcParams['font.family'] = 'serif'
 
 # Model and Option Parameters
-S0 = 7
+S0 = 6
 K = 5  # strike price
 T = 3  # time-to-maturity
 r = 0.01  # constant, riskless short term rate
