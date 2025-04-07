@@ -28,7 +28,7 @@ ObjectiveResult = process_pdf_with_gemini(
 
     pdf_url = "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/community-bank-supervision/pub-ch-community-bank-supervision.pdf",
     prompt = "Extract every numbered objective and organize in a table",
-    api_key="AIzaSyBD_x_EWX6jJLc2hywjv7ACnsG4ihVXz7g"
+    api_key="NEED API"
 )
    
 print(ObjectiveResult['response'])
@@ -53,7 +53,7 @@ result = process_pdf_with_gemini(
     #pdf_url="https://www.minneapolisfed.org/~/media/Y6Reports/2023/y6report_1126484_JOHNSON-BSHRS_2023.pdf",
     #pdf_url="https://www.minneapolisfed.org/~/media/Y6Reports/2023/y6report_1246805_CENTRAL-BC_2023.pdf",
     prompt="Look at this PDF and print a table of all owners with larger than 5% ownership in a table",
-    api_key="AIzaSyBD_x_EWX6jJLc2hywjv7ACnsG4ihVXz7g"
+    api_key="NEED API"
 )
 print(result['response'])
 '''
